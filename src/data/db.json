@@ -1,0 +1,29 @@
+{
+  "person": [
+    {
+      "id": 1,
+      "firstName": "Вадим",
+      "lastName": "Плев"
+    },
+    {
+      "id": 2,
+      "firstName": "Дмитрий",
+      "lastName": "Смирнов"
+    },
+    {
+      "id": 3,
+      "firstName": "Сергей",
+      "lastName": "Дрюпин"
+    },
+    {
+      "id": 4,
+      "firstName": "Артем",
+      "lastName": "Лапенко"
+    },
+    {
+      "id": 6,
+      "firstName": "Михаил",
+      "lastName": "Баринов"
+    }
+  ]
+}

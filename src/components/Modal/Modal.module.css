@@ -1,0 +1,83 @@
+.btn {
+  background-color: rgb(77, 156, 247);
+  padding: 10px;
+  color: #ffffff;
+  border-radius: 10px;
+  border: none;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: rgb(33, 136, 255);
+}
+.popup {
+  width: 500px;
+  margin: 0 auto;
+  outline: none;
+  margin-top: 100px;
+  border: 1px solid rgb(103, 185, 240);
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+.popupfield {
+  padding: 5px;
+  margin: 5px 10px;
+
+  border: 1px solid rgb(103, 185, 240);
+  border-radius: 10px;
+}
+.popupfield:hover {
+  cursor: pointer;
+}
+.fe {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+  margin-bottom: 10px;
+  outline: none;
+}
+.save {
+  background-color: rgb(77, 156, 247);
+  padding: 10px;
+  color: #ffffff;
+  border-radius: 10px;
+  border: none;
+}
+.popup h2 {
+  padding-left: 20px;
+  padding-bottom: 10px;
+  margin-top: 0;
+  margin-top: 10px;
+  padding-top: 5px;
+  color: #fff;
+  background-color: rgb(121, 121, 121);
+  border-bottom: 1px solid rgb(121, 121, 121);
+}
+.save:hover {
+  cursor: pointer;
+  background-color: rgb(33, 136, 255);
+}
+.popupinput {
+  display: block;
+  width: 93%;
+  line-height: 14px;
+}
+.btnmod {
+  color: rgb(33, 136, 255);
+  background: none;
+  border: none;
+  padding-left: 10px;
+}
+.btnmod:hover {
+  cursor: pointer;
+}
+@media (max-width: 770px) {
+  .popup {
+    width: 300px;
+  }
+  .popupinput {
+    width: 89%;
+  }
+  .btn {
+    margin-left: 10px;
+  }
+}
